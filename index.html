@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservación</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Reserva de habitación</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend> Informacion personal</legend>
+                    <p>
+                        <label for="inputNombres">Nombres:</label>
+                        <input type="text" name="inputNombres" id="inputNombres">
+                    </p>
+                    <p>
+                        <label for="inputApellidos">Apellidos:</label>
+                        <input type="text" name="inputApellidos" id="inputApellidos">
+                    </p>
+                    <p>
+                        <label for="inpTelefono">Telefono de contacto:</label>
+                        <input type="number" name="inpTelefono" id="inpTelefono">
+                    </p>
+                    <p>
+                        <label for="inpRFC">RFC:</label>
+                        <input type="text" name="inpRFC" id="inpRFC">
+                    </p>
+                    <p>
+                        <label for="selIdioma">Idioma:</label>
+                        <select name="selIdioma" id="selIdioma">
+                            <option value="-1">seleccione...</option>
+                            <option value="es">Español</option>
+                            <option value="en">Ingles</option>
+                            <option value="fr">Frances</option>
+                            <option value="por">Portuges</option>
+                            <option value="ch">Chino</option>
+                            <option value="ru">Ruso</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Informacion de domicilio</legend>
+                    
+                    <p>
+                        <label for="inpDireccion">Direccion:</label>
+                        <input type="text" name="inpDomicilio" id="inpDireccion">
+                    </p>
+                    <p>
+                        <label for="inpCalle">Calle:</label>
+                        <input type="text" name="inpDomicilio" id="inpCalle">
+                    </p>
+                    <p>
+                        <label for="inpColonia">Colonia:</label>
+                        <input type="text" name="inpDomicilio" id="inpColonia">
+                    </p>
+                    <p>
+                        <label for="inpNumero">Numero de domuciolio:</label>
+                        <input type="number" name="inpDomicilio" id="inpNumero">
+                    </p>
+                    <p>
+                        <label for="inpCP">Codigo Postal:</label>
+                        <input type="number" name="inpDomicilio" id="inpCP">
+                    </p>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Informacion de la Reserva</legend>
+                    <p>
+                        <label for="inpEntrada">Fecha de Entrada:</label>
+                        <input type="date" name="inpEntrada" id="inpEntrada">
+                    </p>
+                    <p>
+                        <label for="inpSalida">Fecha de salida:</label>
+                        <input type="date" name="inpSalida" id="inpSalida">
+                    </p>
+                    <p>
+                        <label for="inpHuespedes">Numero de huespedes:</label>
+                        <input type="number" name="inpHuespedes" id="inpHuespedes">
+                    </p>
+                    <p>
+                        <table>
+                            <tr>
+                                <td colspan="3">
+                                    Tipo de habitación:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="inpHabitacion" id="inpSimple">
+                                    <label for="inpSimple">Simple</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="inpHabitacion" id="inpDuplex">
+                                    <label for="inpDuplex">Duplex</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="inpHabitacion" id="inpPremium">
+                                    <label for="inpPremium">Premium</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    Tipo de cama:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" name="inpCama" id="inpMatrimonial">
+                                    <label for="inpMatrimonial">Matrimonial</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="inpCama" id="inpKing">
+                                    <label for="inpKing">King</label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="inpCama" id="inpQueen">
+                                    <label for="inpQueen">Queen</label>
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
