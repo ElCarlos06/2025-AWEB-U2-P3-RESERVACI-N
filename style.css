@@ -23,3 +23,17 @@ legend{
 fieldset{
     margin: 15px;
 }
+
+button{
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+}
+#reserva{
+    background-color: rgb(20, 61, 174);
+    color: #ffffff;
+}
+#reinicio{
+    background-color: #ffffff;
+    color: #000000;
+}
